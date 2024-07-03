@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaBenz</title>
+    
+<link rel="stylesheet" href="{{ url_for('static', filename='css/mersobenzo.css') }}">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+{% extends 'base.html' %}  
+
+{% block content %}
+
+
+
+      <section class="turtle w-[100%] h-screen bg-gray-1000 flex items-center justify-center overflow-y-hidden">
+        <div>
+          <div class="bg-[#111111] w-full h-screen flex items-center justify-evenly overflow-x-hidden">
+            <div class="marquee-box flex items-center justify-evenly gap-5 ml-0">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://imgs.search.brave.com/N4slvJwxDAygzkUkuoTQgS8SQRBzPWwjGB2-wn5DFQ8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M1LzEw/L2VmL2M1MTBlZmQx/YTEzYTVkMDk4NWMw/YzFkZWZiMjlmMTYy/LmpwZw" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://imgs.search.brave.com/IbUetn5Mdm963Vd8OAVjRpGCQvljwVaD84vbcbMhgec/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmhvdGNhcnNp/bWFnZXMuY29tL3dv/cmRwcmVzcy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8xMS9N/ZXJjZWRlcy1BTUct/T05FLmpwZw" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/bfd7a024b2-1711798170/lamborghini-murcielago-roadster-2001-front-dooropen-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/4d9cedbeb4-1711798178/rolls-royce-phantom-lp5000-4-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/b15978977f-1711798666/full-width-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/2d9eb925f7-1711798352/rolls-royce-phantom-lp5000-22-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://imgs.search.brave.com/N4slvJwxDAygzkUkuoTQgS8SQRBzPWwjGB2-wn5DFQ8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M1LzEw/L2VmL2M1MTBlZmQx/YTEzYTVkMDk4NWMw/YzFkZWZiMjlmMTYy/LmpwZw" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/bfd7a024b2-1711798170/lamborghini-murcielago-roadster-2001-front-dooropen-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://imgs.search.brave.com/IbUetn5Mdm963Vd8OAVjRpGCQvljwVaD84vbcbMhgec/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmhvdGNhcnNp/bWFnZXMuY29tL3dv/cmRwcmVzcy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8xMS9N/ZXJjZWRlcy1BTUct/T05FLmpwZw" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://i.ytimg.com/vi/K1N-3NkFmkk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB-SDjifm0dZxCYvADahCps3PL6Ag" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://www.motortrend.com/uploads/2022/02/2022-Mercedes-Benz-G-Class-AMG-G63-22.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/b15978977f-1711798666/full-width-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://artificial-garage.com/media/site/2d9eb925f7-1711798352/rolls-royce-phantom-lp5000-22-720x720-crop-q72.jpg" alt="">
+              <img class="w-[300px] h-[300px] filter grayscale contrast-125 brightness-75" src="https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-maybach-s680-102-66181cf7a54a6.jpg?crop=0.761xw:0.571xh;0.114xw,0.278xh&resize=1200:*" alt="">
+            </div>
+          </div>
+          <div class="absolute z-20 w-full h-screen bg-transparent flex items-center justify-center top-0 left-0">
+            <h1 class="text-center text-9xl font-semibold text-[#062133]">Drive Your dream</h1>
+          </div>
+        </div>
+      </section>
+
+
+
+    <a href="https://www.tbceducation.ge"> <img class="tbc" src="https://play-lh.googleusercontent.com/dm3fymv5TBQN375FMBGd9WesS-iEU9wrXqxvjVb5g4sJyaPmiWHGenNtJSqZ5FKi8vY" alt="Not found"></a>
+
+<!-- 
+<h1 class="Text"> LaBenz </h1>
+<h2 class="text2">Your Number 1 choice</h2>
+<h3 class="model"> E220 2018  </h3>
+<p class="paragraph"> The Mercedes-Benz E220 is a rear wheel drive 4 door with 5 seats, powered by a 2.0L Turbo 4 Cylinder engine that has 143 kW of power (at 3800 rpm) and 400 Nm of torque (at 1600 rpm) via a 9 Speed Automatic G Tronic. </p>
+<img class="E220" src="https://di-uploads-pod18.dealerinspire.com/mercedesbenzofmishawaka/uploads/2021/03/2021_e-class_colors_obsidian-black-metallic.png" alt="not found"> -->
+
+<br>
+<br>
+  <h1 class="title">LaBenz</h1>
+<br>
+<br>
+
+<section class="first_section"> 
+  <img class="image_1" src="https://images-ext-1.discordapp.net/external/3o2lauaZGQMB3amrWHjb201GeqmIU3y5NYVFnqR4eN0/https/di-uploads-pod18.dealerinspire.com/mercedesbenzofmishawaka/uploads/2021/03/2021_e-class_colors_obsidian-black-metallic.png?format=webp&quality=lossless&width=500&height=208" alt="">
+  <div>
+      <h1>E220</h1>
+      <h2>This is description</h2>
+      <P> The Mercedes-Benz E220 is a rear wheel drive 4 door with 5 seats, powered by a 2.0L Turbo 4 Cylinder engine that has 143 kW of power (at 3800 rpm) and 400 Nm of torque (at 1600 rpm) via a 9 Speed Automatic G Tronic. </p>
+       <div>
+      <button id="myButton"  class="button-86" role="button">Order now!</button>
+   
+       </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  gsap.from('.marquee-box',{
+    transform: "translateX(-180%)",
+    duration:18,
+    repeat:-2,
+    ease:"none"
+  })
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+{% endblock %}
+
+</body>
+
+
+
+</html>

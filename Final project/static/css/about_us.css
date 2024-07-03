@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.logo1{
+
+
+
+    width: 110px;
+    height: 110px;
+
+    display: block;
+    margin: auto;
+}
+
+.cool{
+    margin-top: 13rem;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
